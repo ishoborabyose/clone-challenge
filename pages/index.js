@@ -17,7 +17,7 @@ export default function Home() {
         <Wrapper>
 
 
-          {/* <Navbar /> */}
+          <Navbar />
 
           <Header />
 
@@ -56,10 +56,10 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-
-              <div className="bg-[#333333] hover:bg-white sm:hidden py-20 relative -bottom-16 text-white text-[14px] leading-[18.2px] w-[270px] h-[270px] rounded-[50%] ">
+      <div className="group">
+      <div className="bg-[#333333]  group-hover:bg-white sm:hidden py-20 relative -bottom-16 text-white text-[14px] leading-[18.2px] w-[270px] h-[270px] rounded-[50%] ">
                 <div className="flex gap-20 flex-col ">
-                  <p className="text-center text-[14px] hover:text-[#333333] leading-[18.2px] font-semibold">
+                  <p className="text-center text-[14px] group-hover:text-[#333333] leading-[18.2px] font-semibold">
                     Information for <br /> prospective students
                   </p>
 
@@ -78,6 +78,8 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+      </div>
+             
             </div>
           </div>
 
@@ -175,13 +177,13 @@ export default function Home() {
             </button>
           </div>
 
-          <div className="bg-[#333333] py-[40px] ">
+          <div className="bg-[#333333] group py-[40px] ">
             <div className="px-20 sm:px-3">
               <h3 className="text-[26px] leading-[33px] text-[#ffffff] my-[30px] font-bold">
                 NEWS AND EVENT
               </h3>
-              <div className="grid gap-8 sm:flex sm:flex-col grid-cols-3">
-                <div className="py-[30px] hover:bg-[#60b1f3]  sm:w-[310px] w-[303px] h-[205px] sm:px-3 px-[20px] bg-white">
+              <div className="grid group gap-8 sm:flex sm:flex-col grid-cols-3">
+                <div className="py-[30px] group-hover:bg-[#60b1f3]  sm:w-[310px] w-[303px] h-[205px] sm:px-3 px-[20px] bg-white">
                   <p className="text-[#262626] text-[22px] leading-[28.6px] mb-[15px]">
                     Newsticker: Information on the coronavirus
                   </p>
@@ -190,12 +192,12 @@ export default function Home() {
                   </span>
                 </div>
 
-                <div className="hover:bg-[#60b1f3]  ">
+                <div className="group-hover:bg-[#60b1f3]  ">
                   <img
                     src="https://www.uni-stuttgart.de/universitaet/aktuelles/img/IRGE_Uni-Stuttgart_HdK_Rote-Stadtbalkone_Cansu-Coban_Paul-Menz.jpg?__scale=w:320,h:320,cx:0,cy:0,cw:2000,ch:2000"
                     alt=""
                   />
-                  <div className="py-[30px] hover:bg-[#60b1f3] sm:w-[310px]  sm:px-3 px-[20px] bg-white">
+                  <div className="py-[30px] group-hover:bg-[#60b1f3] sm:w-[310px]  sm:px-3 px-[20px] bg-white">
                     <p className="text-[#262626] text-[22px] leading-[28.6px] mb-[15px]">
                       Latest episode: "Intelligent systems will help us in
                       crises and in the future"
@@ -206,7 +208,7 @@ export default function Home() {
                   </div>{" "}
                 </div>
 
-                <div className="hover:bg-[#60b1f3] ">
+                <div className="group-hover:bg-[#60b1f3] ">
                   <img
                     src="https://www.uni-stuttgart.de/universitaet/aktuelles/video/img-video-vorschaubilder/24A_1280x720.jpg?__scale=w:560,h:400,cx:136,cy:0,cw:1008,ch:720"
                     alt=""
@@ -222,7 +224,7 @@ export default function Home() {
                   </div>{" "}
                 </div>
 
-                <div className=" bg-white h-[450px] -mt-64 sm:mt-0  pt-[30px] hover:bg-[#60b1f3] px-[20px]">
+                <div className=" bg-white h-[450px] -mt-64 sm:mt-0  pt-[30px] group-hover:bg-[#60b1f3] px-[20px]">
                   <img
                     className="rounded-[50%] m-auto "
                     src="https://www.simtech.uni-stuttgart.de/img/Sim_Tech_Folge_03_Szene_27.jpg?__scale=w:220,h:220,cx:262,cy:26,cw:1073,ch:1073"
@@ -237,7 +239,7 @@ export default function Home() {
                     </span>
                   </div>{" "}
                 </div>
-                <div className=" sm:hidden bg-white py-[30px] hover:bg-[#60b1f3]  px-[20px]">
+                <div className=" sm:hidden bg-white py-[30px] group-hover:bg-[#60b1f3]  px-[20px]">
                   <img
                     className="rounded-[50%] m-auto w-[200px] h-[200px]"
                     src="https://www.uni-stuttgart.de/universitaet/aktuelles/meldungen/img-news/instagram.jpg?__scale=w:220,h:220,cx:333,cy:0,cw:1333,ch:1333"
@@ -253,7 +255,7 @@ export default function Home() {
                   </div>{" "}
                 </div>
 
-                <div className=" sm:hidden py-[30px] w-[303px] hover:bg-[#60b1f3] -mt-20  h-[205px] px-[20px] bg-white">
+                <div className=" sm:hidden py-[30px] w-[303px] group-hover:bg-[#60b1f3] -mt-20  h-[205px] px-[20px] bg-white">
                   <p className="text-[#262626] text-[22px] leading-[28.6px] mb-[15px]">
                     Newsticker: Information on the coronavirus
                   </p>
@@ -262,7 +264,7 @@ export default function Home() {
                   </span>
                 </div>
 
-                <div className=" sm:hidden bg-white py-[30px] hover:bg-[#60b1f3] -mt-48  h-[472px] w-[303]  px-[20px]">
+                <div className=" sm:hidden bg-white py-[30px] group-hover:bg-[#60b1f3] -mt-48  h-[472px] w-[303]  px-[20px]">
                   <img
                     className="rounded-[50%] m-auto w-[200px] h-[200px]"
                     src="https://www.uni-stuttgart.de/universitaet/aktuelles/meldungen/img-news/photocase_4910444.jpg?__scale=w:220,h:220,cx:0,cy:871,cw:2000,ch:2000"
@@ -283,13 +285,13 @@ export default function Home() {
                   </div>{" "}
                 </div>
 
-                <div className=" sm:hidden bg-white py-[30px] hover:bg-[#60b1f3]   h-[472px] w-[303]  px-[20px]">
+                <div className=" sm:hidden bg-white py-[30px] group-hover:bg-[#60b1f3]   h-[472px] w-[303]  px-[20px]">
                   <img
                     className="rounded-[50%] m-auto w-[200px] h-[200px]"
                     src="https://www.uni-stuttgart.de/universitaet/aktuelles/meldungen/img-news/photocase_4910444.jpg?__scale=w:220,h:220,cx:0,cy:871,cw:2000,ch:2000"
                     alt=""
                   />
-                  <div className="py-[30px] hover:bg-[#60b1f3]  px-[20px] bg-white">
+                  <div className="py-[30px] group-hover:bg-[#60b1f3]  px-[20px] bg-white">
                     <p className="text-[#262626] text-[22px] leading-[28.6px] mb-[15px]">
                       The University of Stuttgart's five most beautiful
                       Instagram pictures
@@ -304,13 +306,13 @@ export default function Home() {
                   </div>{" "}
                 </div>
 
-                <div className=" sm:hidden bg-white py-[30px] hover:bg-[#60b1f3] -mt-64 h-[540px]  px-[20px]">
+                <div className=" sm:hidden bg-white py-[30px] group-hover:bg-[#60b1f3] -mt-64 h-[540px]  px-[20px]">
                   <img
                     className="rounded-[50%] m-auto "
                     src="https://www.uni-stuttgart.de/universitaet/aktuelles/meldungen/img-news/diversity-kalender.JPG?__scale=w:220,h:220,cx:170,cy:0,cw:832,ch:832"
                     alt=""
                   />
-                  <div className="py-[30px] hover:bg-[#60b1f3]  px-[20px] bg-white">
+                  <div className="py-[30px] group-hover:bg-[#60b1f3]  px-[20px] bg-white">
                     <p className="text-[#262626] text-[22px] leading-[28.6px] mb-[15px]">
                       Energy savings in November
                     </p>
