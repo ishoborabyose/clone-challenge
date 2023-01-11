@@ -8,7 +8,7 @@ function News() {
         NEWS AND EVENT
       </h3>
       <div className="grid group gap-8 sm:flex sm:flex-col grid-cols-3">
-        <div className="py-[30px] group-hover:bg-[#60b1f3]  sm:w-[320px] w-[303px] h-[205px] sm:px-3 px-[20px] bg-white">
+        <div className="py-[30px] group-hover:bg-[#60b1f3]  sm:w-[340px] w-[303px] h-[205px] sm:px-3 px-[20px] bg-white">
           <p className="text-[#262626] text-[22px] leading-[28.6px] mb-[15px]">
             Newsticker: Information on the coronavirus
           </p>
