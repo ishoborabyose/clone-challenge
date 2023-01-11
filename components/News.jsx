@@ -8,7 +8,7 @@ function News() {
         NEWS AND EVENT
       </h3>
       <div className="grid group gap-8 sm:flex sm:flex-col grid-cols-3">
-        <div className="py-[30px] group-hover:bg-[#60b1f3]  sm:w-[310px] w-[303px] h-[205px] sm:px-3 px-[20px] bg-white">
+        <div className="py-[30px] group-hover:bg-[#60b1f3]  sm:w-[320px] w-[303px] h-[205px] sm:px-3 px-[20px] bg-white">
           <p className="text-[#262626] text-[22px] leading-[28.6px] mb-[15px]">
             Newsticker: Information on the coronavirus
           </p>
@@ -17,12 +17,12 @@ function News() {
           </span>
         </div>
 
-        <div className="group-hover:bg-[#60b1f3]  ">
-          <img
+        <div className="group-hover:bg-[#60b1f3] sm:bg-white  ">
+          <img className=''
             src="https://www.uni-stuttgart.de/universitaet/aktuelles/img/IRGE_Uni-Stuttgart_HdK_Rote-Stadtbalkone_Cansu-Coban_Paul-Menz.jpg?__scale=w:320,h:320,cx:0,cy:0,cw:2000,ch:2000"
             alt=""
           />
-          <div className="py-[30px] group-hover:bg-[#60b1f3] sm:w-[310px]  sm:px-3 px-[20px] bg-white">
+          <div className="py-[30px] group-hover:bg-[#60b1f3] sm:w-[320px]  sm:px-3 px-[20px] bg-white">
             <p className="text-[#262626] text-[22px] leading-[28.6px] mb-[15px]">
               Latest episode: "Intelligent systems will help us in
               crises and in the future"
