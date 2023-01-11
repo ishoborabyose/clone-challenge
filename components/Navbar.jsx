@@ -3,7 +3,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <section>
+  
       <div className=''>
 		<div className='py-1 flex text-[12px]   sm:px-10 px-20 bg-[#004191] leading-[15.6px] items-center gap-2 text-white justify-end'>
           <span className='sm:hidden'>University of Stuttgart</span>
@@ -37,8 +37,6 @@ function Navbar() {
 
         </div> 
       </div>
-	
-    </section>
   )
 }
 

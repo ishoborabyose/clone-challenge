@@ -7,7 +7,7 @@ function page() {
     const id =  route.query.id;
   return (
     <div className='text-xl mt-50 text-center'>{id} 
-       <Link href={"./"}>Go back home</Link>
+       <Link href={"./"}>  this is a new page</Link>
     </div>
   )
 }

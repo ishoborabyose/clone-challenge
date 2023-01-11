@@ -15,7 +15,9 @@ export default function Home() {
       </Head>
       <>
         <Wrapper>
-          <Navbar />
+
+
+          {/* <Navbar /> */}
 
           <Header />
 
