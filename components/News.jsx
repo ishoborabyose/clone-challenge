@@ -33,7 +33,7 @@ function News() {
           </div>{" "}
         </div>
 
-        <div className="group-hover:bg-[#60b1f3] ">
+        <div className="group-hover:bg-[#60b1f3]  ">
           <img
             src="https://www.uni-stuttgart.de/universitaet/aktuelles/video/img-video-vorschaubilder/24A_1280x720.jpg?__scale=w:560,h:400,cx:136,cy:0,cw:1008,ch:720"
             alt=""
