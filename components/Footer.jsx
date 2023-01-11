@@ -13,7 +13,7 @@ function Footer() {
         <div>
           <div className="pb-[30px] flex sm:grid sm:grid-cols-3 sm:mt-8 sm:mx-auto gap-6  leading-[25px] text-white font-light">
             <div>
-              <div className="bg-[#333333] border-2 border-white rounded-[50%] h-[75px] w-[75px] p-1">
+              <div className="bg-[#333333] hover:bg-blue-800 border-2 border-white rounded-[50%] h-[75px] w-[75px] p-1">
                 <svg
                   className=""
                   xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@ function Footer() {
             </div>
 
             <div>
-              <div className="bg-[#333333] border-2 border-white rounded-[50%] h-[75px] w-[75px] p-1">
+              <div className="bg-[#333333] hover:bg-green-800 border-2 border-white rounded-[50%] h-[75px] w-[75px] p-1">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="#ffffff"
@@ -62,7 +62,7 @@ function Footer() {
             </div>
 
             <div>
-              <div className="bg-[#333333] border-2 border-white rounded-[50%] h-[75px] w-[75px] pt-3 pl-3 p-1">
+              <div className="bg-[#333333] hover:bg-red-800 border-2 border-white rounded-[50%] h-[75px] w-[75px] pt-3 pl-3 p-1">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="#ffffff"
@@ -90,7 +90,7 @@ function Footer() {
             </div>
 
             <div>
-              <div className="bg-[#333333] border-2 border-white rounded-[50%] h-[75px] w-[75px] p-1">
+              <div className="bg-[#333333] hover:bg-blue-800 border-2 border-white rounded-[50%] h-[75px] w-[75px] p-1">
                 <svg
                   width="60px"
                   height="60px"
@@ -120,7 +120,7 @@ function Footer() {
             </div>
 
             <div>
-              <div className="bg-[#333333] border-2 border-white rounded-[50%] h-[75px] w-[75px] p-1">
+              <div className="bg-[#333333] hover:bg-blue-800 border-2 border-white rounded-[50%] h-[75px] w-[75px] p-1">
                 <svg
                   width="60px"
                   height="60px"
@@ -154,7 +154,7 @@ function Footer() {
             </div>
 
             <div>
-              <div className="bg-[#333333] border-2 border-white rounded-[50%] h-[75px] w-[75px] p-1">
+              <div className="bg-[#333333] hover:bg-blue-800 border-2 border-white rounded-[50%] h-[75px] w-[75px] p-1">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="60"
