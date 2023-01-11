@@ -14,7 +14,7 @@ function Navbar() {
 		  </div>
            
 		   <div className='flex  '>
-			<div className='flex gap-2 items-center sm:pr-52'>
+			<div className='flex gap-2 items-center sm:pr-60'>
 			<span className='hidden lg:block'>Un</span>
 		  <div className='hidden lg:block'>
 		  <svg width="14px" height="14px" viewBox="0 0 17 17" version="1.1">
