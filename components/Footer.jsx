@@ -184,17 +184,17 @@ function Footer() {
               {" "}
               Audience
             </li>
-            <li className="leading-[25.6px] text-white font-light border-b border-b-white">
+            <li className="leading-[25.6px] text-white font-light  underline">
               {" "}
               Students
             </li>
-            <li className="leading-[25.6px] text-white font-light border-b border-b-white">
+            <li className="leading-[25.6px] text-white font-light underline">
               Employees
             </li>
-            <li className="leading-[25.6px] text-white font-light border-b border-b-white">
+            <li className="leading-[25.6px] text-white font-light underline">
               Alumni and supporters
             </li>
-            <li className="leading-[25.6px] text-white font-light border-b border-b-white">
+            <li className="leading-[25.6px] text-white font-light underline">
               Industry
             </li>
           </ul>
